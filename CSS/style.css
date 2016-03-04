@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+}
+html, body {
+	font-size: 16px;
+	font-family: Rubik;
+	color: #484141;
+	background-color: #c4ddf5;
+	height: 100%;
+}
+#mainContent {
+	max-width: 940px;
+	height: auto;
+	margin: 0 auto;
+}
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+a {
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+	text-align: center;
+}
+a:hover {
+	color: red;
+}
+
+header {
+	background-color: #4787ab;
+}
+h1, h3 {
+	text-align: center;
+	background-color: #6cb6e1;
+}
+h1 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 2.5em;
+}
+h3 {
+	padding-bottom: 9px;
+	letter-spacing: 6px;
+}
+
+p {
+	font-size: 1.0em;
+}
+
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+img {
+	border-radius: 15px;
+	height: auto;
+	width: 100%;
+	border: 5px solid #c4d5f5;
+}
+
+#imageBlocks li {
+	float: left;
+	width: 27%;
+	margin: 2.5%;
+}
+#imageBlocks {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*Footer*/
+footer {
+	position: relative;
+	bottom: 0;
+	clear: both;
+	text-align: center;
+	background-color: #6cb6e1;
+	border-top: 4px solid #124093;
+	width: 100%;
+}
+
+#linkedin {
+	height: 30px;
+	width: 30px;
+}
+#github {
+	height: 30px;
+	width: 30px;
+}
+#navBar {
+	padding: 7px;
+	border-bottom: 4px solid #124093;
+}
+#genAss {
+	height: 30px;
+	width: 30px;
+}
+#footerPara {
+	padding: 5px 0 5px 0;
+}
+#aboutMe {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2.5em 0 2.5em 0;
+}
